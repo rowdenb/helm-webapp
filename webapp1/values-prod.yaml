@@ -5,4 +5,4 @@ configmap:
     CUSTOM_HEADER: "Welcome to PROD"
 
 spec:
-  replicas: 5
+  replicas: 4
