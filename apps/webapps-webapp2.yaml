@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://git.datalab.thsd.health.qld.gov.au/repo.git
+    repoURL: https://github.com/rowdenb/helm-webapp.git
     targetRevision: main
     path: charts/webapp2
     helm:
