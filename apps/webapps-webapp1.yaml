@@ -19,4 +19,6 @@ spec:
     automated:
       selfHeal: false
       prune: false
+    syncOptions:
+      - CreateNamespace=true
   syncWave: "0"
