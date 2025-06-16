@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: datahub-prerequisites
+  name: webapp1
   namespace: argocd
 spec:
   project: default
@@ -19,6 +19,4 @@ spec:
     automated:
       selfHeal: false
       prune: false
-    syncOptions:
-      - CreateNamespace=true
   syncWave: "0"
